@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fcdf8864.css",
+    "main.js": "/portfolio/static/js/main.cb3557d0.js",
+    "static/js/787.bcf15beb.chunk.js": "/portfolio/static/js/787.bcf15beb.chunk.js",
+    "static/media/OakesGrotesk-Semi-Bold.otf": "/portfolio/static/media/OakesGrotesk-Semi-Bold.199daecf0d8d9120b946.otf",
+    "static/media/OakesGrotesk-Regular.otf": "/portfolio/static/media/OakesGrotesk-Regular.68652f612189a519b6aa.otf",
+    "static/media/OakesGrotesk-Medium.otf": "/portfolio/static/media/OakesGrotesk-Medium.8b83a2953033d1bdb8de.otf",
+    "static/media/OakesGrotesk-Light.otf": "/portfolio/static/media/OakesGrotesk-Light.580e880e6ec027a94070.otf",
+    "static/media/MagilioRegular.otf": "/portfolio/static/media/MagilioRegular.4bb4f911c8d1d4d8aa98.otf",
+    "index.html": "/portfolio/index.html",
+    "main.fcdf8864.css.map": "/portfolio/static/css/main.fcdf8864.css.map",
+    "main.cb3557d0.js.map": "/portfolio/static/js/main.cb3557d0.js.map",
+    "787.bcf15beb.chunk.js.map": "/portfolio/static/js/787.bcf15beb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcdf8864.css",
+    "static/js/main.cb3557d0.js"
+  ]
+}
