@@ -7,7 +7,6 @@ import WipPage from "./pages/WipPage";
 import ContactPage from "./pages/ContactPage";
 import Nav from "./components/Nav";
 import { Navigate } from "react-router-dom";
-import Projects from './components/Projects';
 import "./index.css";
 
 
