@@ -1,5 +1,5 @@
 {
-  "homepage":"http://Anastasia115.github.io/portfolio",
+  "homepage":"https://Anastasia115.github.io/portfolio",
   "name": "spa-project",
   "version": "0.1.0",
   "private": true,
@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "gh-page": "^0.0.2",
+    "gh-pages": "^4.0.0",
     "s": "^1.0.0"
   }
 }
