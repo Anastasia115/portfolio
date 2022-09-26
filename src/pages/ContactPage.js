@@ -1,7 +1,8 @@
+import ContactForm from "../components/ContactForm.js";
 export default function ContactPage() {
     return (
         <>
-            <div id="nextpage">
+            <div id="box">
             <div className="aboutsection">
                 <div className="page-title">
                     <h2>Contact me</h2>
@@ -12,6 +13,9 @@ export default function ContactPage() {
                     </h3>
                 </div>
                 </div>
+                </div>
+                <div className="contactform">
+                    <ContactForm/>
                 </div>
         </>
     );

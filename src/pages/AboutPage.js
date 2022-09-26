@@ -1,37 +1,68 @@
 import { NavLink } from "react-router-dom";
+import {Link} from "react-router-dom";
+// import Portrait from "../assets/portrait.png";
+import React from 'react';
+import Arrow from "../assets/arrow.svg";
+import Background from "../assets/background.landingpage.png";
+import AboutMeImage from "../assets/aboutmeimage.png";
+
 export default function AboutPage() {
+
+    // function FadeInSection(props) {
+    //     const [isVisible, setVisible] = React.useState(true);
+    //     const domRef = React.useRef();
+    //     React.useEffect(() => {
+    //       const observer = new IntersectionObserver(entries => {
+    //         entries.forEach(entry => setVisible(entry.isIntersecting));
+    //       });
+    //       observer.observe(domRef.current);
+    //       return () => observer.unobserve(domRef.current);
+    //     }, []);
+    //     return (
+    //       <div
+    //         className={`fade-in ${isVisible ? 'is-visible' : ''}`}
+    //         ref={domRef}
+    //       >
+    //         {props.children}
+    //       </div>
+    //     );
+    //   }
     return (
         <>
+        
         <div className="herosection">
             <div className="hero-sectiontext">
                 <h1>Hi, I'm Anastasia.</h1>
                 <h4>A <b><i>Multimedia Designer</i></b> with a specialization <br></br> in <b><i>Front-end Development.</i></b></h4>
             </div>
                 <div className="arrow">
-                    <a href="#nextpage"><img src="./assets/arrow.svg" alt="arrow" ></img></a>
+                    <a href="#nextpage"><img src={Arrow} alt="arrow" ></img></a>
                 </div>
             <div className="hero-section.image">
-                <div id="portrait">
-                        <img src="./assets/portrait.png" alt="portrait Anastasia"></img>
-                </div>
+                {/* <div id="portrait">
+                        <img src={Portrait} alt="portrait Anastasia"></img>
+                </div> */}
                 <div id="background">
-                    <img src="./assets/background.landingpage.png" alt="illustration"></img>
+                    <img src={Background} alt="illustration"></img>
                 </div>
-
-                
             </div>
         </div>
+        
         <div id="nextpage">
             <div className="aboutsection">
                 <div className="page-title">
                     <h2>About me</h2>
                     <h3>Here you can read all about who I am, what makes me happy and more.</h3>
                 </div>
+                {/* <FadeInSection> */}
                 <div className="content">
                     <div className="imageleft">
-                        <img src="./assets/aboutmeimage.png" alt="portrait of Anastasia"></img>
+                        
+                        <img src={AboutMeImage} alt="portrait of Anastasia" ></img>
+                        
                     </div>
 
+                     
                     <div className="textright">
                         <p>
                         I am a Junior Front-End developer located in Denmark, 
@@ -51,32 +82,35 @@ export default function AboutPage() {
                         </p>
                         <p>
                         Drawing, reading and knitting are a few of the things that 
-                        make me feel whole. Besides programming and my dog.
+                        make me feel whole. Besides programming and my <Link to ="/easteregg" class="easteregg-text">dog</Link>.
                         I would love for you to check out my work.
                         </p>
 
+                        
                         <div className="buttons">
-                        <NavLink to="/work"><button type="submit" className="fade-in" onclick="window.location.href='blog.html'">Go to portfolio</button>
+                        <NavLink to="/work"><button>Go to portfolio</button>
                         </NavLink>
-                    </div>
+                        </div>
+                        
                     </div>
                     
+                     
+                    
                 </div>
+                {/* </FadeInSection> */}
                 <div className="contact-shortcut">
                     <div className="con-short-text">
                     <h5>Interested in working <br></br>together?</h5>
                     </div>
-                    {/* <div className="line">
-                        <img src="./assets/line.svg" alt="line"></img>
-                    </div> */}
+
                     <div className="buttons">
-                    <NavLink to="/contact"><button type="submit" className="fade-in" onclick="window.location.href='blog.html'">Contact me</button>
+                    <NavLink to="/contact"><button type="submit" >Contact me</button>
                     </NavLink>
                     </div>
 
                 </div>
                 
-
+                
 
             </div>
 
